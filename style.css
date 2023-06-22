@@ -1,5 +1,32 @@
-canvas {
-    width: 800px;
-    height: 800px;
-    background: red;
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: montserrat;
+}
+
+.container {
+   float: right;
+   display: grid;
+   grid-template-columns: repeat(16,1fr);
+   grid-template-rows: repeat(16,1fr);
+   max-width: 800px;
+   max-height: 800px;
+   box-shadow: 1px 1px 5px;
+}
+
+.grid {
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    
+}
+
+
+.colorSelect {
+    padding: 5px;
+}
+
+.generate {
+
 }
